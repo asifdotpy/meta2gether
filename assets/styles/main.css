@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* backup color: #5161ce*/
+
+body{
+	overflow-x: hidden;
+	font-family: 'sofia-pro', sans-serif;
+	background-color: #fff;
+}
+
+.badge {
+	font-size: 1.1em;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.navbar-toggler {
+	font-size: 2rem;
+}
