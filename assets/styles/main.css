@@ -71,8 +71,9 @@ body{
 }
 
 #navbarSupportedContent{
-	overflow: hidden;
+	overflow:hidden;
 	position: relative;
+	z-index: 9999;
 }
 #navbarSupportedContent ul{
 	padding: 0px;
@@ -90,7 +91,7 @@ body{
     text-decoration: none;
     font-size: 15px;
     display: block;
-    padding: 12px 20px;
+    padding: 9px 20px;
     transition-duration:0.6s;
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     position: relative;
@@ -165,39 +166,3 @@ body{
 
 
 
-
-
-/*
-@media (max-width: 991px){
-	#navbarSupportedContent ul li a{
-		padding: 12px 30px;
-	}
-	.hori-selector{
-		margin-top: 0px;
-		margin-left: 10px;
-		border-radius: 0;
-		border-top-left-radius: 25px;
-		border-bottom-left-radius: 25px;
-	}
-	.hori-selector .left,
-	.hori-selector .right{
-		right: -50px;
-	}
-	.hori-selector .left{
-		top: -25px;
-		left: auto;
-	}
-	.hori-selector .right{
-		bottom: 25px;
-	} 
-	.hori-selector .left:before{
-		left: -25px;
-		top: -25px;
-	}
-	.hori-selector .right:before{
-		bottom: -25px;
-		left: -25px;
-	} 
-}
-
-*/

@@ -71,14 +71,16 @@
                 </nav>           
             </div>
         </header>
-        <div id="mainContent" class="mainConten">
+        <div id="mainContent" class="mainContent">
             <div class="mainContentWrapper">
-                <div class="page firstPage">
-                    <div class="pageWrapper" id="homeVideo"></div>
-                    <div class="textArea">
-                        <div class="companyName"></div>
-                        <div class="companySlogan"></div>
-                        <div class="joinNowBtn"></div>
+                <div class="page firstPage" style="position: fixed; top: 53px; height: 100%;">
+                    <div class="pageWrapper" id="homeVideo">
+                        
+                        <video autoplay muted loop id="myVideo">
+                            <source src="/assets/videos/video.mp4" type="video/mp4">
+                            your browser does not support webm video.
+                        </video>
+
                     </div>
                 </div>
                 <div class="page secondPage"></div>
@@ -86,6 +88,16 @@
                 <div class="page forthPage"></div>
             </div>
         </div>
+
+                    <!-- Footer configuration-->
+        <div id="footer-bar" class="footer-bar-1">
+            <a href="./nftTab.html"><i class="fa fa-universal-access"></i><span>Others</span></a>
+            <a href="./nftTab.html"><i class="fa fa-vr-cardboard"></i><span>Meeting</span></a>
+            <a href="./index.html" class="active-nav"><i class="fa fa-home"></i><span>Home</span></a>
+            <a href="./nftTab.html"><i class="fa fa-shopping-cart"></i><span>NFT</span></a>
+            <a href="./nftTab.html" data-menu="menu-main"><i class="fa fa-wallet"></i><span>Wallet</span></a>
+        </div>
+
 
         <!-- Scripts-->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
